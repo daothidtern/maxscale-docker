@@ -1,3 +1,9 @@
+daothid tern
+coures CNE370
+This script connects to a MySQL database and performs various tasks on two tables,
+'zipcodes_one' and 'zipcodes_two', such as finding the largest zipcode, selecting zipcodes for a specific state, and selecting zipcodes within a certain range.
+The script utilizes the mysql.connector module for database interaction.
+
 import mysql.connector
 
 """
